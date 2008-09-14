@@ -1,0 +1,23 @@
+								-*- outline -*-
+
+This database gathers configuration files to help you setup your
+laptop under Linux.
+
+The tree follows this scheme:
+ BRAND/LAPTOP_MODEL/SOFTWARE-VERSION/CONFIGURATION_FILE
+
+You can then either copy the file to your local computer and use it directly
+or you can clone the whole repository and install a symbolic link to easily
+merge the update with your local changes.
+
+CAUTION:
+* You *have* to know the software you want to configure. The provided
+  configuration file may *not* work directly on your hardware.
+* A non-working configuration file can crash your computer, *always* make
+  a backup of your current configuration file before updating it.
+* Shell scripts (and some configuration files) can damage your computer,
+  always read the configuration file you will be using before installing
+  them locally.
+
+This project does *not* provide software support. If you need assistance,
+please use the project's mailing-lists.
